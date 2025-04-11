@@ -42,6 +42,9 @@ h1, h2 {
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #e0e0e0;
     padding: 15px 20px;
     font-size: 0;
@@ -52,28 +55,21 @@ h1, h2 {
     z-index: 1000;
 }
 
-.navbar__logo-wrapper {
-    display: inline-block;
-    width: 20%;
-    vertical-align: middle;
-    font-size: 1rem;
-}
 .navbar__logo-link {
+    justify-content: center;
     text-decoration: none;
-    display: inline-block;
 }
+
 .navbar__logo {
     display: block;
     height: 100px;
     width: auto;
-    vertical-align: middle;
 }
 
 .navbar__links {
-    display: inline-block;
+    align-items: flex-end;
     width: 79%;
     text-align: right;
-    vertical-align: middle;
     font-size: 1rem;
 }
 
